@@ -31,5 +31,3 @@
 		</nav><!-- .nav--main -->
 
 	</header><!-- .site__header -->
-
-	<main role="main">

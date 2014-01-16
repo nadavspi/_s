@@ -8,8 +8,6 @@
  */
 ?>
 
-	</main>
-
 	<footer class="site__footer">
 
 	</footer>
