@@ -8,7 +8,7 @@
  */
 ?>
 
-	</div><!-- #content -->
+	</main>
 
 	<footer class="site__footer">
 

@@ -32,4 +32,4 @@
 
 	</header><!-- .site__header -->
 
-	<div id="content" class="site-content">
+	<main role="main">
