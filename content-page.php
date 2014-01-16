@@ -20,5 +20,5 @@
 			) );
 		?>
 	</div><!-- .entry-content -->
-	<?php edit_post_link( __( 'Edit', '_s' ), '<footer class="entry__meta"><span class="edit-link">', '</span></footer>' ); ?>
+	<?php edit_post_link( __( 'Edit', '_s' ), '<footer class="entry__meta"><span class="entry__edit">', '</span></footer>' ); ?>
 </article><!-- #post-## -->
