@@ -7,16 +7,17 @@
  */
 
 /*
-* VENDOR
-* Vendor dependencies. Stuff not written by me.
-*/
+ * VENDOR
+ * Vendor dependencies. Stuff not written by me. 
+ */
 
 @import vendor/normalize
 
-/* 
-* _s stuff
-* The styles that ship with the _s theme. Uncomment as needed.
-*/
+/*
+ * _s stuff
+ * The styles that ship with the _s theme. Uncomment as needed.
+ */
+
 // @import vendor/_s/settings
 // @import vendor/_s/mixins
 // @import vendor/_s/global
@@ -33,13 +34,17 @@
 // @import vendor/_s/infinitescroll
 
 /*
-* BASE
-* Base styles, settings, mixins, etc.
-*/
+ * BASE
+ *
+ * Base: Base typography, element styles
+ * Helpers: Miscellaneous helpful mixins and stuff
+ */
 
-@import base // Base typography, element styles
-@import helpers // Miscellaneous helpful mixins and stuff
+@import base 
+@import helpers 
 
 /*
-* MODULES
-*/
+ * MODULES
+ */
+
+ @import modules/nav
