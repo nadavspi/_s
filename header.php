@@ -25,7 +25,7 @@
 		<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 		<h2><?php bloginfo( 'description' ); ?></h2>
 
-		<nav class="nav--main" role="navigation">
+		<nav class="nav nav--main" role="navigation">
 			<h1 class="menu-toggle"><?php _e( 'Menu', '_s' ); ?></h1>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- .nav--main -->
