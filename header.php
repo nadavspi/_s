@@ -26,7 +26,7 @@
 		<h2><?php bloginfo( 'description' ); ?></h2>
 
 		<nav class="nav nav--main" role="navigation">
-			<h1 class="menu-toggle"><?php _e( 'Menu', '_s' ); ?></h1>
+			<h1 class="nav__toggle"><?php _e( 'Menu', '_s' ); ?></h1>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- .nav--main -->
 
